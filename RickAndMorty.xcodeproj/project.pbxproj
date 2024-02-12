@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB32E70E2B6704E700CF4C9A /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB32E70D2B6704E700CF4C9A /* DetayVC.swift */; };
 		AB7A33522B6468FC001B0F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A33512B6468FC001B0F09 /* AppDelegate.swift */; };
 		AB7A33542B6468FC001B0F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A33532B6468FC001B0F09 /* SceneDelegate.swift */; };
-		AB7A33562B6468FC001B0F09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A33552B6468FC001B0F09 /* ViewController.swift */; };
+		AB7A33562B6468FC001B0F09 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A33552B6468FC001B0F09 /* AnasayfaVC.swift */; };
 		AB7A33592B6468FC001B0F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7A33572B6468FC001B0F09 /* Main.storyboard */; };
 		AB7A335B2B6468FD001B0F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7A335A2B6468FD001B0F09 /* Assets.xcassets */; };
 		AB7A335E2B6468FD001B0F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7A335C2B6468FD001B0F09 /* LaunchScreen.storyboard */; };
+		AB7A33672B64691F001B0F09 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB7A33662B64691F001B0F09 /* Alamofire */; };
+		AB7A336A2B646932001B0F09 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AB7A33692B646932001B0F09 /* Kingfisher */; };
+		AB7A336C2B647089001B0F09 /* AnasayfaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A336B2B647089001B0F09 /* AnasayfaTableViewCell.swift */; };
+		AB7A336E2B6471FD001B0F09 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A336D2B6471FD001B0F09 /* Character.swift */; };
+		ABA01E102B6672C3008CD124 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA01E0F2B6672C3008CD124 /* NetworkManager.swift */; };
+		ABD5A4882B6C2E320057CEF8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABD5A4862B6C2E320057CEF8 /* Model.xcdatamodeld */; };
+		ABD5A48A2B6C52C20057CEF8 /* FavoriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5A4892B6C52C20057CEF8 /* FavoriVC.swift */; };
+		ABD5A48C2B6C53220057CEF8 /* FavoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5A48B2B6C53220057CEF8 /* FavoriTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB32E70D2B6704E700CF4C9A /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 		AB7A334E2B6468FC001B0F09 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7A33512B6468FC001B0F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7A33532B6468FC001B0F09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB7A33552B6468FC001B0F09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB7A33552B6468FC001B0F09 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		AB7A33582B6468FC001B0F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB7A335A2B6468FD001B0F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB7A335D2B6468FD001B0F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7A335F2B6468FD001B0F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7A336B2B647089001B0F09 /* AnasayfaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaTableViewCell.swift; sourceTree = "<group>"; };
+		AB7A336D2B6471FD001B0F09 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		ABA01E0F2B6672C3008CD124 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ABD5A4872B6C2E320057CEF8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		ABD5A4892B6C52C20057CEF8 /* FavoriVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriVC.swift; sourceTree = "<group>"; };
+		ABD5A48B2B6C53220057CEF8 /* FavoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +47,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7A336A2B646932001B0F09 /* Kingfisher in Frameworks */,
+				AB7A33672B64691F001B0F09 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB50000D2B67B902004C30C5 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				ABA01E0F2B6672C3008CD124 /* NetworkManager.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		AB7A33452B6468FC001B0F09 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +82,62 @@
 		AB7A33502B6468FC001B0F09 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				AB7A33512B6468FC001B0F09 /* AppDelegate.swift */,
 				AB7A33532B6468FC001B0F09 /* SceneDelegate.swift */,
-				AB7A33552B6468FC001B0F09 /* ViewController.swift */,
+				AB7A33512B6468FC001B0F09 /* AppDelegate.swift */,
+				AB8305BE2B67A65900047E23 /* ui */,
+				AB50000D2B67B902004C30C5 /* service */,
+				AB8305C12B67A68700047E23 /* data */,
 				AB7A33572B6468FC001B0F09 /* Main.storyboard */,
 				AB7A335A2B6468FD001B0F09 /* Assets.xcassets */,
 				AB7A335C2B6468FD001B0F09 /* LaunchScreen.storyboard */,
 				AB7A335F2B6468FD001B0F09 /* Info.plist */,
+				ABD5A4862B6C2E320057CEF8 /* Model.xcdatamodeld */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		AB8305BE2B67A65900047E23 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				AB8305BF2B67A66200047E23 /* tableview */,
+				AB8305C02B67A67700047E23 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		AB8305BF2B67A66200047E23 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A336B2B647089001B0F09 /* AnasayfaTableViewCell.swift */,
+				ABD5A48B2B6C53220057CEF8 /* FavoriTableViewCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		AB8305C02B67A67700047E23 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A33552B6468FC001B0F09 /* AnasayfaVC.swift */,
+				AB32E70D2B6704E700CF4C9A /* DetayVC.swift */,
+				ABD5A4892B6C52C20057CEF8 /* FavoriVC.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AB8305C12B67A68700047E23 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AB8305C22B67A68F00047E23 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AB8305C22B67A68F00047E23 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A336D2B6471FD001B0F09 /* Character.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +156,10 @@
 			dependencies = (
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				AB7A33662B64691F001B0F09 /* Alamofire */,
+				AB7A33692B646932001B0F09 /* Kingfisher */,
+			);
 			productName = RickAndMorty;
 			productReference = AB7A334E2B6468FC001B0F09 /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,10 @@
 				Base,
 			);
 			mainGroup = AB7A33452B6468FC001B0F09;
+			packageReferences = (
+				AB7A33652B64691F001B0F09 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AB7A33682B646932001B0F09 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = AB7A334F2B6468FC001B0F09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7A33562B6468FC001B0F09 /* ViewController.swift in Sources */,
+				ABD5A48A2B6C52C20057CEF8 /* FavoriVC.swift in Sources */,
+				ABA01E102B6672C3008CD124 /* NetworkManager.swift in Sources */,
+				AB7A336E2B6471FD001B0F09 /* Character.swift in Sources */,
+				AB7A33562B6468FC001B0F09 /* AnasayfaVC.swift in Sources */,
+				ABD5A48C2B6C53220057CEF8 /* FavoriTableViewCell.swift in Sources */,
+				ABD5A4882B6C2E320057CEF8 /* Model.xcdatamodeld in Sources */,
+				AB7A336C2B647089001B0F09 /* AnasayfaTableViewCell.swift in Sources */,
+				AB32E70E2B6704E700CF4C9A /* DetayVC.swift in Sources */,
 				AB7A33522B6468FC001B0F09 /* AppDelegate.swift in Sources */,
 				AB7A33542B6468FC001B0F09 /* SceneDelegate.swift in Sources */,
 			);
@@ -361,6 +449,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB7A33652B64691F001B0F09 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		AB7A33682B646932001B0F09 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB7A33662B64691F001B0F09 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7A33652B64691F001B0F09 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AB7A33692B646932001B0F09 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7A33682B646932001B0F09 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		ABD5A4862B6C2E320057CEF8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABD5A4872B6C2E320057CEF8 /* Model.xcdatamodel */,
+			);
+			currentVersion = ABD5A4872B6C2E320057CEF8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB7A33462B6468FC001B0F09 /* Project object */;
 }

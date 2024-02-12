@@ -6,10 +6,35 @@
 //
 
 import UIKit
+import CoreData
+
+//AppDelegate erisim kodu
+let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    //Veri tabanina erişim değişkeni
+    lazy var persistentContainer: NSPersistentContainer = {
+        let container = NSPersistentContainer (name: "Model")//Buradaki model ile Core Data ismi aynı olması gerekiyor.
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+                if let e = error {
+                    print("Hata : \((e as NSError).userInfo)")
+                }
+        })
+        return container
+    }()
+    //saveContext yapılan kaydı onaylar.
+    func saveContext(){
+        let context = persistentContainer.viewContext
+        if context.hasChanges {
+            do{
+            try context.save()
+            }catch{
+                print("Hata : \((error as NSError).userInfo)")
+            }
+        }
+}
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
